@@ -11,7 +11,7 @@ import InternalAuthProvider from '../session/InternalAuthProvider';
 const routes = [
   {
     element: (
-      <AuthProvider authUrl={import.meta.env.VITE_REACT_APP_AUTH_URL}>
+      <AuthProvider authUrl="https://43847514863.propelauthtest.com">
         <InternalAuthProvider>
           <AuthGuard>
             <MainLayout />
@@ -33,7 +33,7 @@ const routes = [
   {
     path: '/',
     element: (
-      <AuthProvider authUrl={import.meta.env.VITE_REACT_APP_AUTH_URL}>
+      <AuthProvider authUrl="https://43847514863.propelauthtest.com">
         <InternalAuthProvider>
           <HomePage />
         </InternalAuthProvider>
