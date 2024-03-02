@@ -1,0 +1,80 @@
+@import 'src/variables';
+
+.market-place-main {
+  color: #222222;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: #e86c60;
+      transition: 0.4s;
+    }
+  }
+
+  .image-bg {
+    background-image: url(https://webook-static.s3.eu-central-1.amazonaws.com/webook/main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+
+    @media (max-width: $md) {
+      height: 280px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.42);
+      opacity: 0.73;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+
+    .inner {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .titles-container {
+      color: #f6f6f6;
+      text-align: center;
+
+
+      .big-title {
+        font-size: 56px;
+        font-weight: 900;
+
+
+        @media (max-width: $md) {
+          font-size: 22px;;
+        }
+      }
+
+      .small-title {
+        color: #f6f6f6;
+        font-weight: 400;
+        font-size: 30px;
+
+        @media (max-width: $md) {
+          font-size: 15px;;
+        }
+      }
+    }
+
+
+  }
+
+  .business-card-container {
+    max-width: 360px;
+
+  }
+}

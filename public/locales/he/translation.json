@@ -1,0 +1,605 @@
+{
+  "accountSettings": {
+    "sendUnavliabilityNotifications": "סנכרון אי זמינות",
+    "title": "הגדרות מערכת"
+  },
+  "editOrderPage": {
+    "orderPageBuffer": "מרווח בדקות בין סדנאות",
+    "orderPageBufferCaption": "מרווח למטרת התארגנות לסדנה הבאה",
+    "orderPageBufferDuration": "משך סדנה בדקות",
+    "orderPageBufferSubmit": "שמור",
+    "orderPageCaption": "פרטי הסדנה מופיעים בדף בחירת סדנה",
+    "orderPageColor": "צבע סדנה",
+    "orderPageColortooltip": "צבע הסדנה ביומן ההזמנות",
+    "orderPageDescription": "פרטי סדנה",
+    "orderPageDescriptionCaption": "פרטי הסדנא מופיעים בכמוד בחירת סדנה",
+    "orderPageEmail": "מייל לנוטיפיקציות",
+    "orderPageLocation": "מיקום הסדנה",
+    "orderPageLocationCaption": "מיקום הסדנא מופיע באימייל אישור הזמנה ותזכורת",
+    "orderPageMaxDatePostFix": "ימים מראש",
+    "orderPageMaxDays": "מספר ימים מקסימלי לפתיחת יומן קדימה",
+    "orderPageMinDatePostFix": "ימים מראש, ולכל המאוחר",
+    "orderPageMinDatePrefix": "הלקוחות יכולים להזמין סדנה",
+    "orderPageMinDays": "מספר ימים מינימלי לפתיחת יומן",
+    "orderPageName": "שם הסדנה",
+    "orderPageNameCaption": "שם הסדנה מופיע בדף ההזמנה",
+    "orderPageType": "סוג הסדנה",
+    "orderPageTypeEvent": "הצטרפות",
+    "orderPageTypePrivate": "פרטי",
+    "orderPageTypeSuccess": "השינויים נשמרו בהצלחה!",
+    "yup": {
+      "hasToBeEmail": "אימייל לא חוקי",
+      "hasToBePoitive": "חייב להיות חיובי",
+      "required": "שדה חובה"
+    }
+  },
+  "next": "הבא",
+  "orderPageErrors": {
+    "saveException": "שמירת ההזמנה לא הצליחה, נסו שוב"
+  },
+  "orderdetails": "פרטי הזמנה",
+  "ordersTabs": {
+    "orders": "הזמנות",
+    "waitingList": "רשימת המתנה"
+  },
+  "parallelOrderPages": {
+    "noPages": "אין סדנאות שיכולות להתקיים במקביל לסדנא זו",
+    "title": "הזמנות מהסדנאות הבאות יכולות להתקיים במקביל "
+  },
+  "paymentIframe": {
+    "noAmericanError": "לא מכבדים אמריקן אקספרס ודיינרס"
+  },
+  "purchasegift": "רכשו כמתנה",
+  "chosedate": "בחר תאריך",
+  "back": "חזרה",
+  "finish": "סיום",
+  "delete": "מחק",
+  "amend": "לינק לשינוי",
+  "cancel": "ביטול",
+  "edit": "עריכה",
+  "close": "סגור",
+  "restrictions": {
+    "maxtable": {
+      "key": "משתתפים",
+      "value": "מס עמדות"
+    }
+  },
+  "save": "שמור",
+  "save_changes": "שמור שינויים",
+  "create_order": "צור הזמנה",
+  "search": "חיפוש",
+  "send": "שלח",
+  "sendEmailDialog": {
+    "success": "ההודעות נשלחו בהצלחה",
+    "title": "שליחת הודעה למשתתפים"
+  },
+  "sendMessage": "שליחת אימייל",
+  "tipComponent": {
+    "Custom": "מותאם אישית",
+    "add": "הוסף",
+    "customAmount": "סכום מותאם אישית:",
+    "leaveTip": "הוסף תשורה (אופציונלי):",
+    "noTip": "ללא תשורה"
+  },
+  "vouchersremark": "כרטיסים ללא תאריך",
+  "waitingList": {
+    "email": "אימייל",
+    "name": "שם",
+    "persons": "משתתפים",
+    "phone": "טלפון",
+    "nonfound": " רשימה ההמתנה ריקה"
+  },
+  "workingDays": {
+    "fixed": "שעות קבועות",
+    "from": "מהשעה",
+    "interval": "טווח שעות",
+    "notWorking": "לא עובדים",
+    "to": "ועד השעה",
+    "title": "זמינות הסדנא"
+  },
+  "yes": "כן",
+  "no": "לא",
+  "add": "הוסף",
+  "add_order": "הזמנה",
+  "add_slots": "סלוט",
+  "reset": "התחל מחדש",
+  "order_number": "מס' הזמנה",
+  "comment": "הערות",
+  "employees": "עובדים",
+  "order_number_short": "מס'",
+  "unknown_user": "משתמש לא ידוע",
+  "checkin": "צ'ק אין",
+  "login_page": {
+    "title": "WeBook - מערכת ניהול הזמנות",
+    "contact": "יצירת קשר:",
+    "email": "אימייל",
+    "password": "סיסמא",
+    "forgot_password": "שכחת את הסיסמא?",
+    "login": "התחבר",
+    "login_failed": "אימייל או סיסמא שגויים!"
+  },
+  "choose_order": {
+    "title": "בחר את סוג הסדנה:"
+  },
+  "order_page": {
+    "ticketsLeft": "נשארו עוד {{ticketsLeft}} כרטיסים",
+    "welcomeBack": "היי {{name}}, איזה כיף שחזרתם אלינו!",
+    "can_spam": "אשמח לקבל עדכונים על מבצעים והטבות",
+    "divider": "או",
+    "order": "הזמנה",
+    "priceAfterDiscount": "מחיר לאחר הנחה:",
+    "step1": "פרטים",
+    "step2": "תאריך ושעה",
+    "step3": "פרטים אישיים",
+    "stepVoucher3": " פרטים אישיים של מזמין השובר",
+    "step4": "סיום",
+    "date": "תאריך:",
+    "persons": "מספר משתתפים:",
+    "time": "זמן:",
+    "hour": "שעה:",
+    "price": "מחיר:",
+    "duration": "משך הסדנה:",
+    "date_error": "נא לבחור תאריך ושעה",
+    "choose_time": "בחר שעת התחלה:",
+    "choose_date": "בחרו תאריך:",
+    "choose_date_placeholder": "בחר תאריך...",
+    "time_not_available": "זמן זה אינו זמין",
+    "firstname": "שם פרטי",
+    "lastname": "שם משפחה",
+    "email": "אימייל",
+    "phone": "טלפון",
+    "firstname_required": "שם פרטי הוא שדה חובה",
+    "lastname_required": "שם משפחה הוא שדה חובה",
+    "email_required": "אימייל הוא שדה חובה",
+    "email_valid": "אימייל אינו תקין",
+    "phone_required": "טלפון הוא שדה חובה",
+    "phone_valid": "מספר טלפון חייב להכיל 10 תווים לפחות",
+    "language": "שפה:",
+    "weekendWarning": "בסופש וחגים - תוספת {{percent}}%",
+    "freeEscortsWarning": "עד שני מלווים למשפחה ללא תשלום נוסף",
+    "payment_in_location": "אנא וודאו פרטי הזמנה \nהתשלום יתבצע בהגעה למקום.",
+    "location": "מיקום:",
+    "enter_location": "הכנס מיקום...",
+    "max_travel_error": "משך הנסיעה חייב להיות פחות מ{{duration}}",
+    "port_entrance_fee": "עמלת שער נמל\n (מופחתת מהמחיר ומשולמת בכניסה לנמל)",
+    "total": "סה\"כ:",
+    "perTicket": "מחיר למשתתף:",
+    "reset_dialog": {
+      "title": "האם אתה בטוח שאתה רוצה לאפס את הטופס ולהתחיל מהתחלה?"
+    },
+    "waiting_list": {
+      "question": "לא נמצא זמן מתאים?",
+      "link": "הרשמה לרשימת המתנה",
+      "title": "הרשמה לרשימת המתנה",
+      "dates_secondary_text": "ניתן לבחור מספר תאריכים. נודיע לכם ברגע שיתפנה מקום באחד התאריכים.",
+      "dates_error": "בחר תאריך!",
+      "no_tickets": "לא נותרו כרטיסים בתאריך זה!",
+      "not_enough_tickets": "לא נותרו מספיק כרטיסים בתאריך זה!\n נותרו {{ticketsLeft}} כרטיסים בלבד!",
+      "completed": {
+        "title": "נרשמת לרשימת המתנה בהצלחה!",
+        "sub_text": "תקבלו הודעה ברגע שיתפנה מקום בתאריך זה."
+      }
+    },
+    "table": {
+      "participant": "למשתתף",
+      "price": "מחיר",
+      "price_per_participant": "מחיר למשתתף"
+    },
+    "weekend_checkbox": "כולל סופש (בתוספת {{percent}}%)",
+    "weekendWarningRedeemGiftCardNotOnWeekends": "השובר אינו תקף בסופש וחגים",
+    "weekendWarningRedeemGiftCardAlsoOnWeekends": "השובר תקף גם בסופש וחגים",
+    "extras": "תוספות מיוחדות",
+    "terms_true": "אישור תנאי השרות הינו מחייב להמשך לרכישה",
+    "terms": {
+      "iaprove": "אני מאשר את",
+      "webooksterms": "תנאי השימוש של WeBook",
+      "accountterms": "תנאי השימוש של {{accountName}}",
+      "and": "ואת"
+    }
+  },
+  "order_completed_page": {
+    "title": "ההזמנה שלך הסתיימה בהצלחה!",
+    "sub_text": "אימייל עם פרטי ההזמנה כבר בדרך אלייך!"
+  },
+  "duration": {
+    "1hr": "שעה",
+    "2hrs": "שעתיים",
+    "hrs": "שעות",
+    "min": "דקות",
+    "30min": "וחצי",
+    "just_30min": "חצי שעה"
+  },
+  "main_sidebar": {
+    "calendar": "יומן",
+    "orders": "הזמנות",
+    "order_page": "דף הזמנה",
+    "order_pages": "דפי הזמנה",
+    "vouchers": "שוברים",
+    "employees": "משתמשים",
+    "discounts": "הנחות",
+    "usersettings": "הגדרות משתמש",
+    "settings": "הגדרות מערכת"
+  },
+  "top_bar": {
+    "home": "עמוד הבית",
+    "logout": "התנתק"
+  },
+  "order_status": {
+    "confirmed": "אושר",
+    "paid": "שולם",
+    "paid_with_voucher": "שולם עם שובר",
+    "paid_with_payment_link": "שולם עם קישור לתשלום",
+    "payment_link_generated": "מחכה לתשלום באמצעות קישור",
+    "archived": "מחוק",
+    "converted_to_voucher": "הומר לשובר",
+    "converted_from_voucher": "הומר משובר"
+  },
+  "calendar": {
+    "add_employee_unavliability": "אי זמינות עובדים",
+    "shift": "משמרת",
+    "search": "חיפוש",
+    "shiftUnavliability": "עובד לא זמין",
+    "today": "היום",
+    "view": {
+      "day": "יום",
+      "3day": "3 ימים",
+      "week": "שבוע",
+      "month": "חודש"
+    },
+    "employees": {
+      "notAssigned": "טרם שובץ"
+    },
+    "add_unavailability": "אי זמינות סדנאות",
+    "add_shift": "משמרת",
+    "add_order": "הזמנה",
+    "order": "הזמנה",
+    "unavailability": "אי זמינות",
+    "order_popper": {
+      "includes_weekend": "כולל שבת וחג",
+      "persons": "משתתפים",
+      "duration": "משך סדנה",
+      "price": "מחיר",
+      "priceAfterDiscount": "מחיר לאחר הנחה",
+      "name": "שם",
+      "email": "אימייל",
+      "phone": "טלפון",
+      "creation_time": "זמן יצירה",
+      "status": "סטטוס",
+      "checkin": "נוכחים"
+    },
+    "event_popper": {
+      "participants": "משתתפים",
+      "add_participants": "הוסף",
+      "total_sum": "סהכ הכנסות סדנה: {{total}}",
+      "total_checkeding": "סהכ נוכחים: {{total}} אנשים",
+      "employees": "עובדים:",
+      "employeess": "עובדים",
+      "link_to_sell": "לינק לרכישת כרטיסים לסדנה"
+    },
+    "delete_order": {
+      "title": "האם אתה בטוח שברצונך למחוק הזמנה זו?",
+      "description": "פרטי ההזמנה יהיו זמינים תחת הזמנות -> הזמנות מחוקות"
+    },
+    "delete_event": {
+      "title": "האם אתה בטוח שברצונך למחוק אירוע זו?",
+      "description": "מחיקת האירוע תהיה סופית ולא ניתנת לשחזור."
+    },
+    "edit_order": {
+      "edit_order": "ערוך הזמנה",
+      "create_order": "צור הזמנה",
+      "date": "תאריך",
+      "redeemvoucher": "ממש שובר",
+      "start_time": "זמן התחלה",
+      "dateandtime": "תאריך ושעה",
+      "end_time": "זמן סיום",
+      "experience": "פרטי הסדנה",
+      "personal": "פרטים אישיים",
+      "magmntSection": "ניהול",
+      "details": "פרטי ההזמנה",
+      "participants": "משתתפים: {{number}}",
+      "price": "מחיר: {{number}}",
+      "openAll": "פתח הכל",
+      "paymentLinks": "קישורי תשלום",
+      "link": "העתק קישור",
+      "paymentLinkStatusPending": "טרם שולם",
+      "paymentLinkStatusPaid": "שולם",
+      "description": "תיאור",
+      "addLink": "הוסף",
+      "priceWord": "מחיר",
+      "mandatoryField": "השדה הינו שדה חובה",
+      "positive": "המספר חייב להיות חיובי",
+      "createPaymentLink": "צור קישור לתשלום",
+      "paymentLink": "קישור לתשלום"
+    },
+    "edit_event": {
+      "edit_event": "ערוך אירוע",
+      "create_event": "צור זמינות",
+      "date": "תאריך",
+      "hiddenFromCustomers": "הסתר מלקוחות",
+      "start_time": "זמן התחלה",
+      "tickets_number": "מספר כרטיסים:",
+      "repeating": "אירוע חוזר",
+      "in_days": "בימים",
+      "end_repeating": "סיים אירועים בתאריך",
+      "create_voucher": "צור שובר",
+      "comments": "הערות",
+      "duration": "משך (בדקות)",
+      "noemployees": "אין",
+      "comment": "הערות:",
+      "employees": "עובדים:"
+    },
+    "unavailability_dialog": {
+      "title": "הוסף אי זמינות",
+      "all_day": "כל היום",
+      "start_date": "תאריך התחלה",
+      "date": "תאריך",
+      "end_date": "תאריך סיום",
+      "start_time": "זמן התחלה",
+      "end_time": "זמן סיום",
+      "description": "תיאור",
+      "repeating": "אי זמינות חוזרת",
+      "in_days": "בימים",
+      "end_repeating": "עד תאריך",
+      "order_page_to_block": "סדנאות",
+      "order_page_to_block_all": "הכל",
+      "selectAllPages": "כל דפי ההזמנה",
+      "timestitle": "שעות וימים",
+      "pagestitle": "דפי הזמנה לחסימה"
+    },
+    "shift_dialog": {
+      "repeating_emp_unavliability": "אי זמינות חוזרת",
+      "title_add": "הוסף משמרת",
+      "title_add_emp_unavaliability": "הוסף אי זמינות עובד",
+      "title_edit": "ערוך משמרת",
+      "date": "תאריך",
+      "start_time": "זמן התחלה",
+      "end_time": "זמן סיום",
+      "employee": "עובד",
+      "propogate": "שבץ לכל הסדנאות הקיימות",
+      "repeating": "משמרת חוזרת",
+      "title_edit_emp_unavaliability": "ערוך אי זמינות עובד"
+    },
+    "delete_unavailability": {
+      "title": "האם אתה בטוח שברצונך למחוק אי זמינות זו?",
+      "description": "מחיקת אי זמינות אינה ניתנת לשחזור"
+    },
+    "delete_shift": {
+      "title": "האם אתה בטוח שברצונך למחוק משמרת זו?",
+      "description": "מחיקת משמרת אינה ניתנת לשחזור"
+    }
+  },
+  "orders": {
+    "nonfound": "לא נמצאו הזמנות",
+    "searchParticipantsPlaceHolder": "חיפוש לפי שם או מספר הזמנה",
+    "upcoming": "בקרוב",
+    "orders": "הזמנות",
+    "history": "היסטוריה",
+    "open_tickets": "כרטיסים פתוחים",
+    "name": "שם",
+    "date": "תאריך יצירה",
+    "num_persons": "משתתפים",
+    "duration": "משך סדנה",
+    "phone": "טלפון",
+    "email": "אימייל",
+    "price": "מחיר",
+    "rows_per_page": "רשומות לעמוד:",
+    "open_ticket": "כרטיס פתוח",
+    "status": "סטטוס",
+    "vouchers": "שוברים",
+    "comment": "הערות ניהול",
+    "archived": "הזמנות מחוקות",
+    "workshop": "סדנה"
+  },
+  "days": {
+    "sunday": "א",
+    "monday": "ב",
+    "tuesday": "ג",
+    "wednesday": "ד",
+    "thursday": "ה",
+    "friday": "ו",
+    "saturday": "ש"
+  },
+  "marketplace": {
+    "widgetscta": "קח אותי למערכת ההזמנות",
+    "main_title": "סדנאות, סיורים ואטרקציות",
+    "meta_description": "בואו לחפש סדנאות, סיורים, הרצאות, אטרקציות. הזמנה קלה אונליין.",
+    "spinnerbenifits": {
+      "benifits1": "חוסכים זמן",
+      "benifits2": "ממירים יותר",
+      "benifits3": "מתעסקים פחות"
+    },
+    "widgetsTitle": "דפי הזמנה מעוצבים של לקוחות",
+    "voucherTitle": "מכירת וניהול שוברי מתנה",
+    "search": {
+      "big_title": "מערכת לניהול סדנאות וסיורים",
+      "small_titlepart1": "לקוחות",
+      "small_titlepart2": "עם Webook"
+    },
+    "header": {
+      "homepage": "עמוד הבית",
+      "login": "התחבר",
+      "whatsappcta": "דברו איתנו",
+      "calendlycta": "קבעו הדגמה",
+      "home": "עמוד הבית",
+      "vouchersCta": "להצטרפות",
+      "return": "חזור"
+    },
+    "page": {
+      "book_button": "הזמנה",
+      "about_us": "קצת עלינו",
+      "address": "כתובת",
+      "phone": "טלפון",
+      "website": "אתר",
+      "read_more": "קרא עוד"
+    },
+    "beforeaftertitle": "מערכת ניהול הסדנאות והסיורים היחידה שעושה סדר בבלאגן",
+    "integrationsTitle": "אינטגרציות סליקה",
+    "marketingIntegrationsTitle": "אינטגרציות מרקטינג",
+    "worksWith": "עובד מעולה עם כל הפלטפורמות",
+    "widgetssubTitle": "לחצו על הלוגו לצפיה",
+    "vouchers": {
+      "title": "שוברי הברזל",
+      "subtitle": "קונים שובר מתנה היום - מממשים בימים יפים יותר"
+    }
+  },
+  "order_pages": {
+    "choose_order": "בחירת סדנה - סדנאות מסומנות",
+    "order_page_today": "עמוד הזמנה החל מהיום",
+    "remove_marked": "אפס בחירה",
+    "order_page": "עמוד הזמנה",
+    "settings": "הגדרות"
+  },
+  "activity": {
+    "activity_timeline": "הסטוריית פעילות"
+  },
+  "checkin_dialog": {
+    "title": "לכמה משתתפים תרצה לבצע צ'ק אין?",
+    "comments": "הערות ניהול"
+  },
+  "paymentwithvoucher": "תשלום עם קוד שובר או קופון",
+  "paymentwithcard": "תשלום עם אשראי",
+  "vouchercode": "קוד שובר",
+  "apply": "הזן",
+  "vouchererrors": {
+    "used": "השובר כבר נוצל",
+    "notfound": "השובר או הנחה לא נמצאו",
+    "missmatch": "השובר לא מתאים לסדנה"
+  },
+  "vouchers": {
+    "redeemdisabled": "לא ניתן לממש שוברים מנוצלים",
+    "details": "פרטים",
+    "no_tickets": "לא נותרו יותר כרטיסים",
+    "redeemtitle": "איזה כיף! קיבלתם שובר מתנה",
+    "donetitle": "ההזמנה שלכם הושלמה!",
+    "donesubtitle": "כל הפרטים ישלחו אליכם במייל בקרוב",
+    "donetext": "מצפים לראותם \uD83C\uDF89",
+    "expired": " השובר פג תוקף",
+    "already_used": "שובר כבר נוצל",
+    "not_found": "שובר לא נמצא",
+    "createdat": "תאריך",
+    "name": "שם המזמין",
+    "num_persons": "משתתפים",
+    "phone_of_buyer": "טלפון המזמין",
+    "price": "מחיר",
+    "paymentStatus": "שיטת תשלום",
+    "status": "סטטוס",
+    "orderlink": "קישור להזמנה",
+    "payment_status": {
+      "pending_payment": "אינו שולם",
+      "paid": "שולם דרך ויבוק",
+      "manual": "הוזן ידנית",
+      "confirmed": "הזמנה ללא פלאגין",
+      "converted_from_order": "הומר מהזמנה"
+    },
+    "voucherstatus": {
+      "pending_payment": "לא שולם",
+      "used": "מומש במלואו",
+      "active": "טרם מומש",
+      "archived": "מבוטל"
+    },
+    "create": "צור שובר",
+    "confirmation_dialog": {
+      "title": "שובר נוצר בהצלחה!",
+      "cta": "סגור",
+      "sendToCustomer": "שלח שובר ללקוח",
+      "sent": "נשלח בהצלחה!"
+    },
+    "linkToRedumption": "קישור",
+    "summery": "רכישת שובר",
+    "code": "קוד שובר (אופציונלי)",
+    "convertDialog": {
+      "areYouSure": "ההזמנה תימחק מלוח השנה ותהיה זמינה לרכישה חדשה ותהפוך לשובר. האם תרצו להמשיך?",
+      "title": "המרת הזמנה לשובר",
+      "cta": "המר",
+      "convertButton": "המר לשובר"
+    },
+    "deleteDisabled": "לא ניתן לבטל שובר שאינו פעיל",
+    "archive": "בטל שובר",
+    "archived": "השובר אינו פעיל"
+  },
+  "redeem": "ממש שובר",
+  "info": "פרטים",
+  "copiedToClipboard": "הועתק!",
+  "unauth": "לא מחובר",
+  "cancelation": {
+    "daysbefore": "ימים לפני",
+    "value": "דמי ביטול או שינוי",
+    "showterms": "הצגת תנאי ביטול ושינויים",
+    "lessthen": "פחות מ{{days}} ימים"
+  },
+  "noPermissions": "אין הרשאות",
+  "calendarOptions": {
+    "hideUnavailability": "זמינות",
+    "showEmployeeUnavliability": "אי זמינות עובדים",
+    "showEmployees": "שיבוץ",
+    "showMyWorkshops": "השיבוץ שלי",
+    "showShifts": "משמרות"
+  },
+  "manage_booking": {
+    "errors": {
+      "dateTimeMissing": "נא לבחור תאריך ושעה",
+      "orderNotFound": "ההזמנה לא נמצאה",
+      "orderPriceNotMatching": "המחיר לא תואם את מחיר ההזמנה, נא לפנות לבעלי הסדנה",
+      "orderPassed": "תאריך ההזמנה בעבר, לא ניתן לבצע שינויים"
+    },
+    "amendingNotAllowed": "שינוי לא אפשרי עקב חריגה ממדיניות השינויים",
+    "done": "השינויים עודכנו, נתראה בקרוב!",
+    "orderNumberRequired": "מספר הזמנה הוא שדה חובה",
+    "orderEmailRequired": "אימייל הוא שדה חובה",
+    "invalidEmail": "האימייל אינו חוקי",
+    "orderNumber": "מספר הזמנה",
+    "orderEmail": "אימייל ההזמנה",
+    "submitdetails": "מצא את ההזמנה שלי!",
+    "cancalationpolicy": "מדיניות שינויים",
+    "cta": {
+      "ordersummery": "עדכון תאריך ושעה",
+      "calendar": "הבא",
+      "confirmation": " אישור"
+    }
+  },
+  "amend_not_enabled": "לינק לעדכון (בטא ,עדין לא זמין לכם)",
+  "availabilitySettings": {
+    "blockResources": "משאבים לחסימה: ",
+    "capacity": "עד {{capacity}} משתתפים"
+  },
+  "recommended": "מומלץ",
+  "paymentLinks": {
+    "errors": {
+      "notfounc": "לא נמצא קישור לתשלום",
+      "alreadypaid": "תשלום עבור קישור זה כבר בוצע"
+    }
+  },
+  "purchaseVoucher": "רכשו שובר",
+  "order_date": "מועד הסדנה",
+  "discounts": {
+    "description": "תיאור",
+    "addDiscount": "הוסף",
+    "editDialog": {
+      "addDiscount": "הוספת קופון",
+      "editDiscount": "עריכת קופון",
+      "value": "אחוז הנחה",
+      "code": "קוד קופון",
+      "immutable": "שדה זה אינו ניתן לעריכה לאחר יצירת הקופון"
+    },
+    "value": "אחוז",
+    "code": "קוד קופון",
+    "startDate": "תאריך התחלה",
+    "endDate": "תאריך סיום",
+    "status": "סטטוס",
+    "usedCount": "כמות שימושים",
+    "errors": {
+      "notActive": "קוד הנחה לא פעיל"
+    }
+  },
+  "userSettings": {
+    "disconnect": "התנתק",
+    "gcalSyncEmail": "סנכרון ל {{userEmail}} פעיל",
+    "googleSync": "סנכרון ליומן גוגל",
+    "title": "הגדרות משתמש",
+    "sendShiftNotifications": "סנכרון זימונים למשמרות",
+    "sendWorkshopNotifications": "סנכרון זימונים לסדנאות",
+    "userEmailSync": "מסנכרן ל {{userEmail}} באמצעות שליחת זימונים למייל",
+    "whereToSync": "לאן לסנכרן?"
+  },
+  "returnningCustomer": "לקוח חוזר"
+}

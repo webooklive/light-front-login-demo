@@ -1,0 +1,9 @@
+<script>
+  try {
+    const currentQueryParams = new URLSearchParams(window.location.search);
+    const newUrl = `/order/completed?${currentQueryParams.toString()}`;
+    window.parent.location.href = newUrl;
+  } catch (e) {
+    window.parent.location.href = '/order/completed';
+  }
+</script>
